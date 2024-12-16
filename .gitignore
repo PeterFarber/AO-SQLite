@@ -1,5 +1,9 @@
 node_modules
 .cache/
+.vscode/
+
+libs/
+
 
 sqlite3/*.a
 sqlite3/*.o

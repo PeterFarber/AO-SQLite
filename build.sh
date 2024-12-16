@@ -28,6 +28,7 @@ sudo chmod -R 777 ${SQLLITE_DIR}
 cp ${SQLLITE_DIR}/sqlite3.a $LIBS_DIR/sqlite3.a
 cp ${SQLLITE_DIR}/lsqlite3.a $LIBS_DIR/lsqlite3.a
 
+cp -r $LIBS_DIR ${SCRIPT_DIR}/libs
 
 # Copy config.yml to the process directory
 cp ${SCRIPT_DIR}/config.yml ${PROCESS_DIR}/config.yml

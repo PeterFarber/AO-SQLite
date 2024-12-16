@@ -1,6 +1,5 @@
-extra_compile_args: [ 
-  '-DSQLITE_ENABLE_MATH_FUNCTIONS',
-  '-DSQLITE_ENABLE_GEOPOLY',
-  '-DSQLITE_ENABLE_FTS5',
-  '-DSQLITE_ENABLE_API_ARMOR'
-  ]
+target: 64
+keep_js: false
+stack_size: 5242880
+initial_memory: 7340032
+maximum_memory: 1073741824
